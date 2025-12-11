@@ -1,6 +1,9 @@
 ### Minimal Shortcut Models Pytorch implementation
 A minimal unofficial implementation of the paper *One Step Diffusion via Shortcut Models* by Kevin Frans, Danijar Hafner, Sergey Levine and Pieter Abbeel.
 
+![Shortcut models are a family of generative models that can produce high quality outputs in one, a few or many steps.](preview.jpg)
+
+
 ### What shortcut models are
 Shortcut models are a family of generative models designed to speed up inference in diffusion-style generation. Unlike standard diffusion or flow-matching models that require many iterative denoising steps, a shortcut model trains a single neural network that is conditioned not just on the current noise level but also on the desired step size. This allows the model to “skip ahead” in the generative process and produce high-quality outputs in one step or a few steps without complex multi-stage training.  
 [arXiv link here]
