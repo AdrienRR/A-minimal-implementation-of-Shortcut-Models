@@ -1,4 +1,4 @@
-### Minimal Shortcut Models Pytorch implementation
+### A minimal implementation of Shortcut Models
 A minimal unofficial implementation of the paper *One Step Diffusion via Shortcut Models* by Kevin Frans, Danijar Hafner, Sergey Levine and Pieter Abbeel.
 
 ![Shortcut models are a family of generative models that can produce high quality outputs in one, a few or many steps.](preview.jpg)
