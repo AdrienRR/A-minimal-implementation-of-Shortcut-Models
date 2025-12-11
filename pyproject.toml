@@ -1,0 +1,13 @@
+[project]
+name = "shortcut-model"
+version = "1.0"
+description = "A minimal implementation of Shortcut Models as introduced in One Step Diffusion via Shortcut Models by Kevin Frans, Danijar Hafner, Sergey Levine and Pieter Abbeel"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.3.5",
+    "scikit-learn>=1.8.0",
+    "torch>=2.9.1",
+    "tqdm>=4.67.1",
+]
